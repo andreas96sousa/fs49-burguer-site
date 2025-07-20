@@ -9,6 +9,13 @@ h1 {
 
 
  @media (max-width: 1000px) {
+  nav{
+    display: flex;
+    justify-content: center;
+    img{
+      padding: 0%;
+    }
+  }
   #banner-delivery{
     display: flex;
     flex-flow: column nowrap;
@@ -20,11 +27,21 @@ h1 {
       h1{
         width: 70%;
         text-align: center;
-        font-size: 5rem;
+        font-size: 4rem;
+        padding: 0;
+      }
+      p{
+        padding: 0;
+        font-size: 1.5rem;
       }
     }
   }
   #burguer-img{
     width: 70%;
+  }
+  #banners{
+    img{
+      max-width: 100%;
+    }
   }
 }
