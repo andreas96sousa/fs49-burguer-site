@@ -8,7 +8,7 @@ h1 {
   
 
 
- @media (max-width: 800px) {
+ @media (max-width: 1000px) {
   #banner-delivery{
     display: flex;
     flex-flow: column nowrap;
