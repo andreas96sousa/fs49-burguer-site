@@ -6,3 +6,25 @@ h1 {
     font-style: normal;
   }
   
+
+
+ @media (max-width: 800px) {
+  #banner-delivery{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    gap: 2rem;
+    div{
+      align-items: center;
+      gap: 2rem;
+      h1{
+        width: 70%;
+        text-align: center;
+        font-size: 5rem;
+      }
+    }
+  }
+  #burguer-img{
+    width: 70%;
+  }
+}
